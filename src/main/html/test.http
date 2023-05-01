@@ -1,1 +1,10 @@
-GET http://localhost:8080/FYND_war_exploded/home
+GET http://localhost:8080/FYND_war_exploded/username
+
+###
+POST http://localhost:8080/FYND_war_exploded/position
+Content-Type: application/json
+
+{
+  "username": "pippo",
+  "position": "ciao"
+}

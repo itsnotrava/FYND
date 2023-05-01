@@ -12,8 +12,8 @@ import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.UUID;
 
-@WebServlet(name="home", value="/home")
-public class HomeServlet extends HttpServlet {
+@WebServlet(name="UsernameServlet", value="/username")
+public class UsernameServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.addHeader("Access-Control-Allow-Origin", "*");
