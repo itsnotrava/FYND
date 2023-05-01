@@ -44,7 +44,8 @@ public class HomeServlet extends HttpServlet {
 	}
 
 	private String generateRandomUsername() {
-		return UUID.randomUUID().toString().replaceAll("_", "").substring(0, 10);
+		// TODO: cambiare in futuro
+		return UUID.randomUUID().toString().replaceAll("_", "").replaceAll("-", "").substring(0, 10);
 	}
 
 }

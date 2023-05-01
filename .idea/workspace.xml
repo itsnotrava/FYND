@@ -9,14 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f38b435-4138-4f7a-b483-db28ea14a821" name="Changes" comment="Implementazione PositionDao.java e ConnectionFactory.java">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_10_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/html/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/html/test.http" afterDir="false" />
+    <list default="true" id="5f38b435-4138-4f7a-b483-db28ea14a821" name="Changes" comment="Test HomeServlet.java">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fynd.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/PositionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/PositionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/ConnectionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectId" id="2PCdsNNGIYA1JLRp8fNohvmYEJM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -75,7 +78,8 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "sqlite"
+      "sqlite",
+      "mysql"
     ]
   }
 }]]></component>
@@ -121,7 +125,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682959944700</updated>
-      <workItem from="1682959945588" duration="5192000" />
+      <workItem from="1682959945588" duration="5226000" />
+      <workItem from="1682965206430" duration="79000" />
+      <workItem from="1682965464336" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="creazione servlets">
       <created>1682961002383</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682963597165</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test HomeServlet.java">
+      <created>1682965177499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682965177499</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +168,7 @@
     <MESSAGE value="creazione servlets" />
     <MESSAGE value="Implementazione HomeServlet.java" />
     <MESSAGE value="Implementazione PositionDao.java e ConnectionFactory.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementazione PositionDao.java e ConnectionFactory.java" />
+    <MESSAGE value="Test HomeServlet.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test HomeServlet.java" />
   </component>
 </project>

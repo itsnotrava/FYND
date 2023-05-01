@@ -11,7 +11,7 @@ public class PositionDao {
 	private final Connection con;
 
 	public PositionDao() throws SQLException {
-		this.con = ConnectionFactory.createConnection("sqlite");
+		this.con = ConnectionFactory.createConnection("mysql");
 	}
 
 	public boolean checkIfUsernameAlreadyExists(String username) throws SQLException {
