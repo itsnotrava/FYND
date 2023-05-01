@@ -9,7 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f38b435-4138-4f7a-b483-db28ea14a821" name="Changes" comment="Risoluzione bug dell'invio posizione in script.js">
+    <list default="true" id="5f38b435-4138-4f7a-b483-db28ea14a821" name="Changes" comment="Implementazione del doPost di PositionServlet.java">
+      <change beforePath="$PROJECT_DIR$/src/main/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/PositionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/PositionServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682970193541</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementazione del doPost di PositionServlet.java">
+      <created>1682970503812</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682970503812</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +188,7 @@
     <MESSAGE value="Test HomeServlet.java" />
     <MESSAGE value="Refactoring di script.js e implementazione dell'invio della posizione" />
     <MESSAGE value="Risoluzione bug dell'invio posizione in script.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Risoluzione bug dell'invio posizione in script.js" />
+    <MESSAGE value="Implementazione del doPost di PositionServlet.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementazione del doPost di PositionServlet.java" />
   </component>
 </project>

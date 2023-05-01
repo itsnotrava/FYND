@@ -15,10 +15,15 @@ import java.sql.SQLException;
 @WebServlet(name="PositionServlet", value="/position")
 public class PositionServlet extends HttpServlet {
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.addHeader("Access-Control-Allow-Origin", "*");
 		response.setContentType("application/json");
 
+		JsonObject jsResponse = new JsonObject();
+		jsResponse.addProperty("position", "44.488 11.3752");
+		PrintWriter printWriter = response.getWriter();
+		printWriter.println(jsResponse);
+		printWriter.flush();
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
