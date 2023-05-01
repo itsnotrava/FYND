@@ -4,13 +4,11 @@ import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-import com.google.gson.*;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 
-@WebServlet(name="PosizioneServlet", value="/posizione")
-public class PosizioneServlet extends HttpServlet {
+@WebServlet(name="PositionServlet", value="/position")
+public class PositionServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException {
 		response.addHeader("Access-Control-Allow-Origin", "*");
