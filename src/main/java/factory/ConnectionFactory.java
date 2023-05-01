@@ -10,7 +10,7 @@ public class ConnectionFactory {
 		switch (typeOfDatabase) {
 			case "sqlite" -> {
 				SQLiteDataSource dataSource = new SQLiteDataSource();
-				dataSource.setUrl("jdbc:sqlite:/");
+				dataSource.setUrl("jdbc:sqlite:fynd.sqlite");
 				return dataSource.getConnection();
 			}
 			default -> {
