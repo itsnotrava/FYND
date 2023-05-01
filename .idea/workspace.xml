@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f38b435-4138-4f7a-b483-db28ea14a821" name="Changes" comment="Test HomeServlet.java">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="5f38b435-4138-4f7a-b483-db28ea14a821" name="Changes" comment="Refactoring di script.js e implementazione dell'invio della posizione">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/html/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/html/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/UsernameServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/html/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/html/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "wip-add-send-position",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682965177499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactoring di script.js e implementazione dell'invio della posizione">
+      <created>1682969084475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682969084475</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +173,7 @@
     <MESSAGE value="Implementazione HomeServlet.java" />
     <MESSAGE value="Implementazione PositionDao.java e ConnectionFactory.java" />
     <MESSAGE value="Test HomeServlet.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test HomeServlet.java" />
+    <MESSAGE value="Refactoring di script.js e implementazione dell'invio della posizione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring di script.js e implementazione dell'invio della posizione" />
   </component>
 </project>

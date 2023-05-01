@@ -11,6 +11,11 @@ class UsernameAndPositionHandler {
     username;
     position;
 
+    constructor() {
+        this.username = "";
+        this.position = "";
+    }
+
     /**
      * Metodo per la ricezione dello username temporaneo
      */
@@ -18,7 +23,7 @@ class UsernameAndPositionHandler {
         let request = new XMLHttpRequest();
         request.open("GET", "http://localhost:8080/FYND_war_exploded/username");
 
-        request.onload = function() {
+        request.onload = () => {
             let jsResponse = JSON.parse(request.responseText);
             this.loadUsername(jsResponse);
         }
@@ -48,15 +53,16 @@ class UsernameAndPositionHandler {
      * da {@link loadUsername}
      */
     getSelfPosition() {
-        const id = navigator.geolocation.watchPosition(this.successPosition, this.errorPosition)
+        const id = navigator.geolocation.watchPosition(
+            (position) => {
+            this.successPosition(position);
+        }, (error) => {
+            this.errorPosition(error);
+        });
     }
 
-    /**
-     * Metodo invocato a ogni spostamento da {@link getSelfPosition}
-     * in caso di successo
-     * @param position
-     */
-    successPosition(position) {
+    successPosition(positionObject) {
+        let position = positionObject["coords"]["latitude"].toString() + " " + positionObject["coords"]["longitude"].toString();
         console.log(position);
         this.position = position;
         this.sendPosition();
@@ -73,13 +79,14 @@ class UsernameAndPositionHandler {
 
     /**
      * Metodo per l'aggiornamento della propria posizione sul DB,
-     * invocato da {@link successPosition} ad ogni spostamento
+     * invocato da {@link successPosition} a ogni spostamento
      */
     sendPosition() {
         let body = {
             "username": this.username,
             "position": this.position
         }
+
         let request = new XMLHttpRequest();
         request.open("POST", "http://localhost:8080/FYND_war_exploded/position");
 
