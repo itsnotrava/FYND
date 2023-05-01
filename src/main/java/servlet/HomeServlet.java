@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.UUID;
 
-@WebServlet(name="HomeServlet", value="/home")
+@WebServlet(name="home", value="/home")
 public class HomeServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
